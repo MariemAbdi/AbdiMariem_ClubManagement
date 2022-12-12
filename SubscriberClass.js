@@ -1,9 +1,10 @@
 const Subscriber = class {
-    constructor(id,fullName, gender, BD_year) {
+    constructor(id,fullName, gender, BD_year, totalPoints) {
       this.id= id;
       this.fullName = fullName;
       this.gender = gender;
       this.BD_year=BD_year;
+      this.totalPoints=totalPoints;
     }
   
     age() {
